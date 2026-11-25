@@ -225,7 +225,7 @@ address {
 .info {
   padding-block: clamp(4rem, 8vw, 7rem);
   border-bottom: 1px solid var(--color-border);
-  background: radial-gradient(circle at 60% 30%, rgba(66, 105, 209, 0.11), transparent 55%);
+  background: radial-gradient(circle at 60% 30%, rgba(66, 104, 209, 0.281), transparent 55%);
 }
 
 .info-grid {
@@ -356,7 +356,7 @@ address {
 .code-dots span:nth-child(3) { background-color: var(--color-accent); }
 
 .code-dots small {
-  margin-left: auto;
+  margin-left: left;
   font-family: 'JetBrains Mono', monospace;
   color: var(--color-text-muted);
 }
@@ -365,17 +365,62 @@ address {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.88rem;
   color: var(--color-accent);
-  overflow-x: auto;
+  overflow-x: left;
 }
 
 
 .nao-sei{
-    background-color: var(--color-bg-surface);
+  background-color: var(--color-bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: 1.75rem;
   transition: transform var(--transition-base), border-color var(--transition-base);
   width: 43rem;
+  margin-right: 10rem;
+   background: radial-gradient(circle at 80% 20%, rgba(17, 114, 241, 0.575), transparent 55%);
+   
+}
+
+.nao-sei:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-accent-border);
+}
+
+.nao {
+  background-color: var(--color-bg-secondary);
+  box-shadow: var(--shadow-card);
+}
+.code-dots1 {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+
+}
+
+.code-dots1 span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.code-dots1 span:nth-child(1) { background-color: #ff5f56; }
+.code-dots1 span:nth-child(2) { background-color: #ffbd2e; }
+.code-dots1 span:nth-child(3) { background-color: var(--color-accent); }
+
+.code-dots1 small {
+  margin-left: left;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--color-text-muted);
+}
+
+
+.Informacoes {
+  padding-block: clamp(4rem, 8vw, 7rem);
+  border-bottom: 1px solid var(--color-border);
+  background: radial-gradient(circle at 80% 30%, rgba(17, 114, 241, 0.863), transparent 55%);
 }
 
 
